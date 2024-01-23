@@ -9,9 +9,17 @@ Keep in mind that the app window will stay on top, providing you with live updat
 - `plyer` library
 - `Pillow` library
 
-## Run with:
+## Important Commands:
 
+# Run the script
 python dogecoin_price_gui.py
+
+# Create a virtual environment
+python -m venv venv
+
+# Activate the virtual environment
+# On Windows
+venv\Scripts\activate
 
 ## Documentation
 
