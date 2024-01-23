@@ -19,8 +19,10 @@ https://www.coingecko.com/api/documentation
 # Run the script
 python dogecoin_price_gui.py
 
-# Create a virtual environment
-python -m venv venv
+# Run the following command to change the execution policy for the current session and then Try activating the virtual environment
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned
+
+.\venv\Scripts\Activate
 
 # Activate the virtual environment
 # On Windows
