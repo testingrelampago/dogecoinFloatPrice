@@ -12,3 +12,7 @@ Keep in mind that the app window will stay on top, providing you with live updat
 ## Run with:
 
 python dogecoin_price_gui.py
+
+## Documentation
+
+https://www.coingecko.com/api/documentation
