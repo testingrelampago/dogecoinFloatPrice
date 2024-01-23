@@ -16,14 +16,23 @@ https://www.coingecko.com/api/documentation
 ## Important Commands:
 
 ```bash
-# Run the script
-python dogecoin_price_gui.py
 
-# Run the following command to change the execution policy for the current session and then Try activating the virtual environment
+# Steps
+# 1 - Run the following command to change the execution policy for the current session in Power Shell (Windows)
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned
+
+# 2 - Activate the virtual environment
 
 .\venv\Scripts\Activate
 
-# Activate the virtual environment
-# On Windows
-venv\Scripts\activate
+# 3 - Install in the session:
+
+pip install plyer
+
+pip install requests
+
+pip install Pillow
+
+# 4 - Run:
+
+python dogecoin_price_gui.py
